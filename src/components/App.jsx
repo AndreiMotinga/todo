@@ -1,15 +1,10 @@
 import React from 'react';
 import List from '../containers/List'
+import AddTodo from '../components/AddTodo.jsx'
 
 const App = () => (
   <div>
-    <form>
-      <div className="input-group">
-        <input type="text" className="form-control" placeholder="Text..."/>
-        <span className="input-group-addon" id="basic-addon2">Add</span>
-      </div>
-    </form>
-
+    <AddTodo />
     <List />
 
     <div>
