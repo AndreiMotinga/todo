@@ -1,19 +1,14 @@
 import React from 'react';
 import List from '../containers/List'
 import AddTodo from '../components/AddTodo.jsx'
+import Footer from '../components/Footer.jsx'
+
 
 const App = () => (
   <div>
     <AddTodo />
     <List />
-
-    <div>
-      <a href="#">All</a>
-      {' '}
-      <a href="#">Active</a>
-      {' '}
-      <a href="#">Completed</a>
-    </div>
+    <Footer />
   </div>
 )
 

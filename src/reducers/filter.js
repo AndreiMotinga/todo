@@ -9,10 +9,8 @@ export const FILTERS = {
 export const setFilter = (filter) => {
   return {
     type: SET_FILTER,
-    action: {
-      payload: {
-        filter
-      }
+    payload: {
+      filter
     }
   }
 }
