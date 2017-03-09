@@ -1,4 +1,5 @@
 import React from 'react';
+import List from '../containers/List'
 
 const App = () => (
   <div>
@@ -9,11 +10,7 @@ const App = () => (
       </div>
     </form>
 
-    <ul className="list-group">
-      <li className="list-group-item">Buy milk</li>
-      <li className="list-group-item">Do some work</li>
-      <li className="list-group-item">Exercise</li>
-    </ul>
+    <List />
 
     <div>
       <a href="#">All</a>

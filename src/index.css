@@ -5,3 +5,11 @@ body {
 ul {
   margin-top: 20px;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+.remove-link {
+  float: right;
+}
